@@ -1,0 +1,22 @@
+RewriteEngine On
+
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+
+RewriteRule ^(.*)$ index.php?route=$1 [L,QSA]
+
+#RewriteCond %{REQUEST_URI} ^[0-9a-zA-Z-]$ [NC]
+#RewriteRule ^/[0-9A-Za-z-]$ %{REQUEST_URI}/?title=$1 [R=301,L]
+
+#RewriteCond %{REQUEST_URI} /+[^\.]+$
+#RewriteRule ^(.+[^/])$ %{REQUEST_URI}/$1 [R=301,L]
+
+#RewriteRule ^(.*)\.html$ index.php?route=$1 [QSA,L]
+
+#RewriteRule ^forum/([0-9a-zA-Z_-]+)$ /?title=$1 [NC,L]
+#RewriteRule ^forum/([0-9]+)/([0-9a-zA-Z_-]+)$ /?id=$1&title=$2 [NC,L]
+#RewriteRule ^forum/([a-z-]+)/(\d+)/([a-z-]+) index.php?route=$1&id=$2&title=$3 [L]
+#RewriteRule ^/?$ /index [L,R=302]
+
+#Redirecting from the old URI structure
+#RewriteRule ^article/used/to/be/here.php$ /article/now/lives/here/ [R=301,L]

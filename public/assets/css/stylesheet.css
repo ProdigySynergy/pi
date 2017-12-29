@@ -1,0 +1,416 @@
+html,
+body
+{
+  height: 100%;
+}
+.company-intro
+{
+  margin-top: 46vh;
+  padding: 2em;
+  background: #000;
+  opacity: 0.5;
+  filter: alpha(opacity=50); /* For IE8 and earlier */
+}
+.company-cover-background
+{
+  width: 100%;
+    height: 100vh;
+    /*background: rgba(0, 0, 0, .8) url('../../assets/images/bg.jpg')no-repeat center center fixed;*/
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.company-logo
+{
+  color: #000;
+  background-color: #EEE;
+  height: 11vh;
+}
+.company-logo img
+{
+  width: 15%;
+  padding-top: .2rem;
+}
+.company-logo h1
+{
+  font-weight: bold;
+  color: #191d3d;
+  font-size: 1.8rem;
+  margin-top: 7px;
+}
+.company-logo h3
+{
+  color: #191d3d;
+  font-size: 0.8rem;
+  font-style: italic;
+  margin-top: 7px;
+}
+.company-slider
+{
+    width: 100%;
+    height: 89vh;
+}
+.company-slider img
+{
+    width: inherit;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+#homeSlider
+{
+  height: 89vh
+}
+#homeSlider img
+{
+  height: 89vh
+}
+.no-padding
+{
+  padding: 0px !important;
+}
+.white-color
+{
+  color: #FFF;
+}
+.white-background
+{
+  background-color: #FFF;
+}
+.full-height
+{
+  height: 100vh;
+}
+.c-v-h
+{
+  position: absolute;
+  margin-top: 10vh;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  text-align: center;
+  color: #FFF;
+}
+.orange-bg
+{
+  background-color: #d35400;
+  color: #FFF;
+}
+.green-bg
+{
+  background-color: #16a085;
+  color: #FFF;
+}
+.blue-bg
+{
+  background-color: #2980b9;
+  color: #FFF;
+}
+.red-bg
+{
+  background-color: #c0392b;
+  color: #FFF;
+}
+.purple-bg
+{
+  background-color: #191d3d;
+  color: #FFF;
+}
+.inverse-bg
+{
+  background-color: #2c3e50;
+  color: #FFF;
+}
+.flex-col
+{
+  width: 50%;
+  height: 25vh;
+  overflow: hidden;
+}
+.about-bg
+{
+  background: url('../../assets/images/about.png')no-repeat;
+    -webkit-background-size: 100%;
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%; 
+}
+.news-bg
+{
+  background: url('../../assets/images/product.png')no-repeat;
+    -webkit-background-size: 100%;
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%; 
+}
+.student-bg
+{
+  background: url('../../assets/images/product.png')no-repeat;
+    -webkit-background-size: 100%;
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%; 
+}
+.vision-bg
+{
+  background: url('../../assets/images/services.jpg')no-repeat;
+    -webkit-background-size: 100%;
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%; 
+}
+.contact-bg
+{
+  background: url('../../assets/images/contact.jpg')no-repeat;
+    -webkit-background-size: 100%;
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%; 
+}
+ul.social-icons
+{
+  width: 100%;
+  padding: 0px;
+}
+ul.social-icons li
+{
+  display: inline-block;
+}
+ul.social-icons li a
+{
+  color: #FFF;
+  margin-left: .5em;
+  margin-right: .5em;
+}
+ul.social-icons li a:hover
+{
+  color: #EEE;
+}
+.mask
+{
+  filter: alpha(opacity=85);
+  -moz-opacity: 0.85;
+  opacity: 0.85;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+.page-header {
+  padding-bottom: 9px;
+  margin: 40px 0 20px;
+  border-bottom: 1px solid #eee;
+}
+/*call out*/
+.bd-callout {
+  padding: 1.25rem;
+  margin-top: 1.25rem;
+  margin-bottom: 1.25rem;
+  border: 1px solid #eee;
+  border-left-width: .25rem;
+  /*border-radius: .25rem;*/
+}
+
+.bd-callout h4 {
+  margin-top: 0;
+  margin-bottom: .25rem;
+}
+
+.bd-callout p:last-child {
+  margin-bottom: 0;
+}
+
+.bd-callout code {
+  border-radius: .25rem;
+}
+
+.bd-callout + .bd-callout {
+  margin-top: -.25rem;
+}
+
+.bd-callout-info {
+  border-left-color: #5bc0de;
+}
+
+.bd-callout-info h4 {
+  color: #5bc0de;
+}
+
+.bd-callout-success {
+  border-left-color: #16a085;
+}
+
+.bd-callout-success h4 {
+  color: #16a085;
+}
+
+.bd-callout-warning {
+  border-left-color: #f0ad4e;
+}
+
+.bd-callout-warning h4 {
+  color: #f0ad4e;
+}
+
+.bd-callout-danger {
+  border-left-color: #d9534f;
+}
+
+.bd-callout-danger h4 {
+  color: #d9534f;
+}
+
+.bd-examples .img-thumbnail {
+  margin-bottom: .75rem;
+}
+
+.bd-examples h4 {
+  margin-bottom: .25rem;
+}
+
+.bd-examples p {
+  margin-bottom: 1.25rem;
+}
+
+.floating {
+  position: relative;
+  bottom: 4em;
+  text-align: center;
+}
+
+.footer-nav
+{
+  background: #262c56;
+  color: #FFF;
+}
+
+.h2-home {
+  font-size: 1.3rem;
+  font-weight: bold;
+  border-bottom: .1rem solid #FFF;
+}
+.li-home {
+  list-style-type: none;
+}
+.li-home a {
+  color: #ccc;
+}
+.li-home a:hover {
+  color: #FFF;
+}
+.ul-home {
+  padding-left: 0rem;
+}
+.clear {
+  clear: both;
+}
+.padding-top-15 {
+  padding-top: 15px;
+}
+
+
+
+@media (max-width: 480px) {
+  .bd-examples {
+    margin-right: -.75rem;
+    margin-left: -.75rem;
+  }
+  .bd-examples > [class^="col-"] {
+    padding-right: .75rem;
+    padding-left: .75rem;
+  }
+  .c-v-h
+  {
+    margin-top: 2.5rem;
+  }
+  .fa-3x
+  {
+    font-size: 2em !important;
+  }
+  .c-v-h > h3
+  {
+    font-size: 1.5rem;
+  }
+  .company-logo
+  {
+    height: inherit;
+  }
+  #homeSlider img {
+    height: 70vh;
+  }
+  #homeSlider {
+    height: 70vh;
+  }
+  .company-slider {
+    width: 100%;
+    height: 70vh;
+  }
+}
+
+.bd-team {
+  margin-bottom: 1.5rem;
+}
+
+.bd-team .team-member {
+  line-height: 2rem;
+  color: #555;
+}
+
+.bd-team .team-member:hover {
+  color: #333;
+  text-decoration: none;
+}
+
+.bd-team .github-btn {
+  float: right;
+  width: 180px;
+  height: 1.25rem;
+  margin-top: .25rem;
+  border: 0;
+}
+
+.bd-team img {
+  float: left;
+  width: 2rem;
+  margin-right: .5rem;
+  border-radius: .25rem;
+}
+@media(max-width:767px) {
+  .company-intro
+  {
+    margin-top: 0;
+    padding: 1em;
+  }
+  .desktop-only
+  {
+    display: none;
+  }
+
+  .company-logo img
+  {
+    width: 25%;
+  }
+  .company-logo h1
+  {
+    font-size: 1rem;
+  }
+  .company-logo h3
+  {
+    font-size: .8rem;
+  }
+}
+@media(min-width:767px) {
+  .mobile-only
+  {
+    display: none;
+  }
+}

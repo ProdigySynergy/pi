@@ -1,0 +1,53 @@
+body
+{
+	padding-top: 40px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+    line-height: 1.9em;
+}
+.product-landscape-bg
+{
+	width: 100%;
+    height: 20%;
+    background: url('../images/product-full.jpg')no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: #FFF;
+}
+.about-landscape-bg
+{
+	width: 100%;
+    height: 20%;
+    background: url('../images/about-full.jpg')no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: #FFF;
+}
+.service-landscape-bg
+{
+	width: 100%;
+    height: 35%;
+    background: url('../images/service-full.jpg')no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: #FFF;
+}
+.contact-landscape-bg
+{
+	width: 100%;
+    height: 35%;
+    background: url('../images/contact-full.jpg')no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: #FFF;
+}
+.title
+{
+	margin-top: 5%;
+}
